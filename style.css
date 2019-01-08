@@ -1,0 +1,305 @@
+  * {
+    box-sizing: border-box;
+  }
+
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5; 
+  }
+
+  header{
+    padding: 5px 100px;    
+    background :#BFBFBF ;
+  }
+
+  header #PagesID{
+  padding-top: -100px
+  }
+
+  .PagesID{
+    position: relative;
+    bottom: 80px;
+  }
+
+  /* main navigation */
+  nav {
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    padding-top: -700px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    color: #6D478B;
+    text-decoration: none;
+    font-style: italic;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+    font-size: 25px;
+   
+  }
+  nav ul li a:hover   {
+    background: #6D478B;
+    color: white;
+  }
+
+
+  .rectangle {
+    margin-top: 2px; 
+    background-color: #6D478B;
+    height: 400px;
+    width: "100%";
+    z-index: -1;
+  }
+
+  #world-mapID {
+    margin-top: 2px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .daysID{
+
+    padding-left: 100px;
+    margin-top: 25px;
+    position: absolute;
+    color:white;
+    z-index: 999;
+  }
+
+  .daysID img{
+      border-radius: 20px;
+  }
+
+  #headId{
+    color:white;
+  }
+
+  .textID {
+    text-align: left;
+    padding-left: 750px;
+    padding-top: 10px;
+    color:white;
+    z-index: 9999;
+    font-size: 20px;
+  }
+
+
+  #wantID{
+    text-align: center;
+    color: #6D478B;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+  }
+
+
+  #Wdiv {
+  	text-align: center;
+  	color: #6D478B;
+  	font-size: 35px;
+
+  }
+
+  #TextPP{
+  	font-size: 70px;
+  	font-weight: bold;
+  	color: #6D478B;
+  }
+
+  #TextPP1{
+  	font-size: 40px;
+  	font-weight: 1;
+  }
+
+  #TextGG {
+  	color: #66B266;
+  }
+
+  #TextGG1{
+  	color: #6D478B;
+  	text-decoration-line: underline;
+  }
+
+  footer{
+    padding: 20px 10px;
+    background :#6D478B;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+
+
+  #navFoot {
+  	border = "0";
+  	height="100" ;
+  	width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+
+  #h{
+  text-align:left;
+  font-size:150%;
+  margin: auto;
+  padding: 10px 30px;
+  padding-right: 300px;
+  padding-left: 300px;
+
+  }
+  #h h1 ,h2 {
+      border-collapse: collapse;
+      color: #6D478B;
+
+  }
+  #h h1 , h3{
+  color: #6D478B;
+  }
+
+  #h p{
+  color:black;
+  }
+
+  #h2{
+  padding: 30px;
+  margin:30px;
+  background-color:white;
+  color:#666699;
+  }
+
+  .Qu{
+    color:purple;
+    text-align :center;
+    padding: 30px;
+    margin:30px;
+    font-style:italic;
+    font-size:250%;
+  }
+
+  .pu{
+      font-family: verdana;
+      font-size: 20px;
+      color:#6D478B;
+      position: relative;
+      left: 220px;
+
+  }
+
+  .gr{
+      font-family: verdana;
+      font-size: 20px;
+      color:#66B266;
+      position: relative;
+      left: 220px;
+
+  }
+
+
+  .T {
+      
+      font-family: arial, 
+      sans-serif;
+      border-collapse: collapse;
+      width: 50%;
+      position: relative;
+      left: 320px;
+      display: inline-block;
+      color:#6D478B;
+}
+
+  td, th {
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+      width:50%;
+  }
+
+  .G {
+      background-color: #ADCAA3;
+      color:white;
+  }
+  #TT {
+  color:#6D478B;
+  text-align :center;
+  margin:30px;
+  font-size:250%;
+  }
+
+  input[type=Email],input[type=Password],input[type=text],input[type=date] {
+      width: 150%;
+      padding: 12px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+  }
+
+
+  label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+  }
+
+
+
+
+  .login{
+  border: none;
+  float:left;
+  margin-left: 50px;
+  display: inline-block;
+  padding: 100px;
+  position: relative;
+  left: 50px;
+  }
+
+  .Rigester{
+  border: none;
+  display: inline-block; 
+  margin-left: 50px;
+  padding: 100px;
+  position: relative;
+  left: 50px;
+  }
+
+
+  .HH{
+  color:#6D478B;
+  font-size: 40px;
+  }
+
+.uu{
+      font-size: 70px;
+      color:#6D478B;
+      position: relative;
+      left: 220px; 
+}
+
+.uu2{
+  position: relative;
+      left: 220px; 
+}
+
+.button {
+     color: white;
+      background-color: #4CAF50;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float:left;
+    }
+
+
+ 
